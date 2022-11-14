@@ -1,0 +1,117 @@
+body{
+  background: url('https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg');
+}
+.ipodContainer{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRUMz1gRgjI3f_afpwGSkWUW5py6ZLQWaG1cA&usqp=CAU');
+  width: 20vw;
+  margin: 10vh auto;
+  border-radius: 25px;
+  overflow: auto;
+  box-shadow: 6px 6px 8px #888888;
+}
+
+.ipodScreen{
+  margin: 5% 3% 0 3%;
+  border-radius: 20px;
+  height: 40% !important;
+  min-height: 25vh;
+  border: 2px solid black;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ4zURPvxiAPcX78CDWA7liM5RMLNxyLalSQ&usqp=CAU");
+  background-size: cover;
+}
+
+
+.toggleMenu{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  overflow: auto;
+}
+.ipodFullScreen{
+  border-radius: 20px;
+  background-color: white;
+  background: url('https://i.pinimg.com/originals/46/1d/25/461d254f8563f8945ce3a385f289df17.jpg');
+  min-height: 25vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notdisplayToggleMenu{
+  display: none;
+}
+.MenuList{
+  margin: 10px;
+  min-height: 25vh;
+}
+.menuItem{
+  padding: 0;
+  margin: 0;
+}
+.MenuList p{
+  margin: 3px 0;
+  padding: 3px;
+}
+.selectedMenuItem{
+  background-color: #1A73E8;
+  color: white;
+}
+
+h3{
+  margin: 0;
+}
+
+/* button wheel */
+
+#buttonWheel{
+  height: 45%;
+  min-height: 27vh;
+  margin:5% 10%;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+}
+#buttonWheel div{
+  color: #C9C7C4;
+  cursor: default;
+}
+.MenuButton{
+  font-size: 25px;
+  font-weight: 500;
+  position: absolute;
+  top: 20%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.previousButton{
+  position: absolute;
+  top: 50%;  
+  left: 20%; 
+  transform: translate(-50%, -50%);
+}
+.pauseAndPlay{
+  position: absolute;
+  top: 80%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.nextButton{
+  font-style: normal;
+  position: absolute;
+  top: 50%;  
+  left: 80%; 
+  transform: translate(-50%, -50%);
+}
+.centerButton{
+  background-color: #B9B9B9;
+  position: absolute;
+  top: 50%;  
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  border: none;
+}

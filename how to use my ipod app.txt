@@ -1,0 +1,9 @@
+Hello thank you for viewing my ipod app
+
+1>To browse through the items on screen you need to click and hold on buttons wheel and rotate it clockwise or anticlockwise to move up and down on screen.
+2>You can not click on the screen. I have not made the ipod touchscreen you need to use button wheel only.
+3>When some item on screen is highlighted and you want to access that item then click on center button in buttons wheel.
+4>When you are on any other screen which is not the default menu screen then click on menu button on wheel to move to default menu screen.
+5>Music playing has not been added yet so music buttons currently do nothing.
+6>If there is some problem while running the app then delete node modules and package-lock.json and do npm install.
+	
